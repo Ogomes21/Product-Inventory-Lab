@@ -15,10 +15,6 @@ public class Hat {
         this.qty = expectedQty;
     }
 
-    public Hat() {
-
-    }
-
     public String getColor() {
         return color;
     }

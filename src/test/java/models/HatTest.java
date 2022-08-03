@@ -1,8 +1,6 @@
 package models;
 
 import org.junit.Assert;
-import org.junit.Before;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertSame;
@@ -24,13 +22,8 @@ public class HatTest {
         assertEquals(expectedBrand, testHat.getBrand());
         assertEquals(expectedSize, testHat.getSize());
         assertEquals(expectedPrice, testHat.getPrice());
-//        assertEquals(expectedQty, testHat.getQty);
+        assertEquals(expectedQty, testHat.getQty());
     }
-
-//    @Before
-//    public void testCreateHat() {
-//      Hat hat = new Hat("Green", "Adidas", "Small", 25.00f, 2);
-//    }
 
     @Test
     public void testGetColor() {
